@@ -14,10 +14,7 @@ async function main() {
       const db = client.db(dbName);
   
     await uno(db);
-    //   await renombrarColumnas(db);
-    //   await ordenarPorApellido(db);
-    //   await consultarPagos(db);
-    //   await determinarMinMax(db);
+
   
     } finally {
       await client.close();
